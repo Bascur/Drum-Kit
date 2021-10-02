@@ -1,0 +1,40 @@
+//Event listener
+
+//document.querySelector("button").addEventListener("click", handleClick);
+
+//function handleClick()
+
+//Anonymous function 
+
+//document.querySelectorAll("button").addEventListener("click", function() {
+//  alert("I got clicked!")
+//});
+
+// declaracion de objetos
+
+var bellBoy1 = {
+    name: "Timmy",
+    age: 19,
+    hasWorkPermit: true;
+    languages: ["French", "English"]
+};
+
+// Declaracion de clases -- Funcion de construccion
+
+function BellBoy(name, age, hasWorkPermit, languages) {
+    this.name = name;
+    this.age = age;
+    this.hasWorkPermit = hasWorkPermit;
+    this.languages = languages;
+  this.moveSuitcase: function() {
+        alert("may i take your suitcase?");
+        pickUpSuitcase();
+        move();
+    }
+}
+// Un metodo es una funcion asociada a un objeto
+bellBoy1.moveSuitcase;
+
+// Declaracion de objetos usando la clase
+
+var bellBoy1 = new BellBoy("Timmy", 19, true, ["French", "English"]);
